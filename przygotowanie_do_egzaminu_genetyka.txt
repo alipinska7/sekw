@@ -1,0 +1,364 @@
+WYKŁAD 2
+
+CHOROBA HUNTINGTONA
+-> postępująca degeneracja tkanki mózgu
+-> pierwsze objawy 35-45 lat
+-> zaburzenia behawioralne, ruchu, postępująca ciężka demencja
+-> do 20 lat życia
+Do tej pory uznawana za nieuleczalną, ale w 2025 terapia genowa wyciszająca za pomocą miRNA.
+
+RODZINNA HIPERCHOLESTEROLEMIA
+-> dominacja przez haploinsuficjencję
+-> mutacje w genach LDLR i ApoB
+-> heterozygoty: podwyższony LdL we krwi, miażdżyca, choroby serca od ok 40 r.ż
+-> homozygoty: ciężkie schorzenia serca i naczyń już w dzieciństwie
+Leczenie przez statyny.
+
+PENETRACJA
+- prawdopodobieństwo wystąpienia objawów choroby u osoby z danym genotypem (np. zmutowany allel)
+100% - typowy wzór dziedziczenia dominującego
+<100% - trudna do przewidzenia, wpływ środowiska, wieku, tła genetycznego
+W genomice człowieka: (dla pojedynczego wariantu)
+
+PENETRACJA - czy będzie jakikolwiek fenotyp
+EKSPRESYJNOŚĆ - jaki będzie fenotyp
+PODŁOŻE - wpływ środowiska, wieku, tła genetycznego
+
+ZESPÓŁ MARFANA
+-> dominująca mutacja w genie FBN1 kodującym fibrylinę - białko tkanki łącznej
+-> blokada polimeryzacji białka prawidłowego - allel antymorficzny
+-> defekty tkanki łącznej, aorty i zastawek, bardzo wysoki wzrost, arachnodaktylia
+-> 4 grupy objawów: serca, aorta(rozwarstwienie - przyczyna śmierci), oko, szkielet
+
+CECHY SPRZEŻONE Z PŁCIĄ:
+-> płeć kobiety: XX, płeć mężczyzny: XY
+-> na chromosomie X dużo genów
+-> na chromosomie Y kilkanaście genów, w tym SRY kierujący rozwojem jąder
+-> geny na chromosomie X: sprzężenie z płcią
+
+Jeśli matka jest nosicielka, to zachoruje średnio 1/2 synów, a 1/2 córek będzie nosicielkami.
+Jeśli ojciec jest chory, to wszystkie córki będą nosicielkami, ale żaden syn nie zachoruje.
+
+! Chromosom X nigdy nie jest przekazywany ojciec-syn. Zawsze od ojca do córki.
+Jeżeli cecha recesywna, to chorują przeważnie mężczyźni, kobiety są nosicielkami.
+
+INAKTYWACJA X
+Regulacja genów człowieka jest bardzo wrażliwa na liczbę kopii. U kobiet jedna z dwóch kopii X jest nieaktywna losowo, w różnych komórkach różna.
+Kobiety nosicielki w chorobach sprzężonych z płcią mogą mieć (zwykle łagodne) objawy na skutek inaktywacji X z prawidłowym allelem w części komórek
+
+MOZAIKOWATOŚĆ INAKTYWACJI X
+Przykład: Gen odpowiadający za barwę futra na chromosomie X
+U heterozygotycznych samic łaty czarne i rude zależnie od inaktywacji, samce czarne lub rude.
+Wyciszanie jednej kopii chromosomu X u samic ssaków przez lncRNA XIST.
+Ekspresja i wiązanie transkryptu XIST indukuje metylację DNA (CpG) i zamykanie chromatyny.
+
+INAKTYWACJA X
+-> oparty na 2 transkrybowanych z przeciwnych nici lincRNA: XIST i TSIX
+-> ograniczona dostępność bialka DCP1A:
+=> na jednym z 2 X dochodzi do degradacji TSIX i aktywacji XIST - ten będzie inaktywowany
+aktywny X - ekspresja TSIX, hamowanie XIST
+nieaktywny X - zahamowana elongacja TSIX i jego degradacja, odblokowany XIST
+
+DYSTROFIE MIĘŚNIOWE
+Mutacje w genie dystrofiny - białko łączące cytoszkielet poprzez błonę z macierzą zewnątrzkomórkową, błoną podstawną
+1) Duchenne'a (DMD) - ciężka, mutacje nullomorficzne (nonsens i frameshift)
+2) Beckera (BMD) - lżejsza, mutacje hipomorficzne
+Delecja nawet całych pojedynczych eksonów daje allel hipomorficzny (BMD) - repetytywna struktura białka
+
+ZESPÓŁ RETTA
+-> gen MECP2 - białko wyrażane w neuronach
+-> niedorozwój umysłowy i motoryczny
+-> gen na chr. X
+-> chorują tylko dziewczynki, u chłopców letalne
+
+DNA MITOCHONDRIALNY CZŁOWIEKA
+-> 16 568 par zasad
+-> koduje 13 białek łańcucha oddechowego, 2 rRNA, 22 tRNA
+-> zwarty - brak intronów, brak lub niewielkie obszary niekodujące między genami czasem brak pełnego kodonu STOP (wprowadzony poprzez poliadenylację)
+-> dziedziczenie od matki (mitochondria plemnika zawierają bardzo mało mtDNA i są niszczone po zapłodnieniu)
+
+HOMOPLAZMIA - wszystkie cząsteczki mtDNA w komórce takie same
+HETEROPLAZMIA - różne allele mtDNA w tej samej komórce (część zmutowana, część zdrowa): efekty ilościowe, progowe
+HETEROGENNOŚĆ - różne mutacje, podobny fenotyp
+PLEJOTROPIA - jedna mutacja uderza w wiele różnych pozornie niezwiązanych ze sobą miejsc w organizmie
+
+EFEKT PROGOWY
+Komórka działa normalnie, dopóki procent zmutowanego mtDNA nie przekroczy określonej granicy (np. 70%). Dopiero gdy uszkodzonych fabryk jest zbyt dużo, komórka zaczyna chorować z braku energii.
+
+DZIEDZICZENIE MITOCHONDRIALNE
+-> najczęściej neuropatologie (wzrok i śluch też), miopatologie, zaburzenia metaboliczne
+-> mutacje punktowe, reozległe delecje i deplecja mtDNA
+-> ciężkie mutacje: najczęściej heteroplazmia, stąd duże zróżnicowanie objawów u różnych osób w rodzinie
+Dana mutacja może powodować różne objawy, a podobne objawy mogą być wywołane różnymi mutacjami.
+
+-------------------------------------------- WYKŁAD 3 ------------------------------------
+VUS - variant of unknown significance
+WARIANT SPRAWCZY/PATOGENNY - jednoznaczne, silne powiązanie przyczynowe wariantu z chorobą
+
+GENOM REFERENCYJNY 
+-> najczęściej GRCh38 z 2013 r.
+-> zdarzają się w nim warianty powiązane z ryzykiem chorób i rzadkie w populacji
+
+NOWY GENOM - T2T-CHM13
+-> uzyskany metodą sekwencjonowania długich odczytów
+-> pierwszy kompletny genom ŁĄCZNIE Z TELOMERAMI I CENTROMERAMI
+(wcześniejsze genomy ich nie miały)
+
+PANGENOM CZŁOWIEKA - 2023
+-> na podstawie analizy genomów wielu osób
+-> potrzebny z uwagi na np. problemy z mapowaniem wariantów w obszarach nie występujących w referencji ze względu na zmienność strukturalną
+-> problem: wizualizacja złożonej zmienności (grafy)
+
+GRAFY PANGENOMOWE
+- wizualizacja i analiza zmienności w obszarach niewystępujących w genommie referencyjnym
+
+SNP/SNV (Single Nucleotide Polymorphism/Variant) - zmienność pojedynczych nukleotydów
+SNV - termin ogólny; SNP - dla wariantów częstszych niż 1%
+INDEL (insercja/delecja) - do 50bp
+SV (Structural Variation) - zmiany strukturalne definiowane jako obejmujące obszary >50bp
+
+WARIANTY
+MAF - Minor Allele Frequency
+- częste: >5% częstość allelu rzadszego (praktycznie nie ma waraintów sprawczych)
+- niska częstość: 5% > MAF > 0,5%
+- rzadkie: MAF < 0,5%; wg innej definicji MAF < 1%
+Bazy danych o częstości wariantów w populacji: 1KG, gnomAD
+
+METODY BADANIA ZMIENNOŚCI
+1) Mikromacierze - panele znanych SNP
++ standaryzacja
+- nie obejmują wariantów rzadkich i nowych
+2) Sekwencjonowanie
++ wykrywanie wariantów bardzo rzadkich i nowych
+- wciąż większy koszt (analizy bioinformatyczne i przestrzeń dyskowa)
+WGS - Whole Genome Sequencing
+WES - Whole Exome Sequencing - obszary kodujące
+
+BAZA dbSNP: znane warianty SNV
+Każdy wariant ma swój identyfikator: rsID
+=> Identyfikacja przez rsID unika problemów związanych ze zmianami w sekwencji referencyjnej (różne pozycje na chromosomie)
+
+ClinVar - opis wpływu wariantu na fenotyp (mogą być też łagodne)
+dbVAR - zmiany strukturalne powyżej 50 bp
+Ensembl - baza europejska, wymienia dane z dbSNP,dbVAR/ClinVar
+
+Bazy danych i projekty - slajd 12
+
+Projekt "1000 genomów" - poszukiwanie różnic w genomach różnych ludzi
+
+ZMIENNOŚĆ GENOMU CZŁOWIEKA
+-> SNV - 3,1% genomu
+-> większość to warianty rzadkie
+-> różnice między dwiema losowymi osobami: 0,1%-0,2% genomu (kilka milionów miejsc)
+najwięcej w Afryce 6mln, w Europie 4,8mln
+
+Docelowo projekt "All of Us" - milion sekwencji genomowych reprezentatywnych dla różnorodności etnicznej populacji
+
+2022r. - 1000 genomów z Polski
+- 33,4M SNP; 5,9M indeli
+- 4,48M wariantów/osobę
+- populacja jednorodna
+- kilka genów dla których MAF w Polsce wyższy niż w innych populacjach Europy
+(np. C2, MTMR2)
+
+ZMIENNOŚĆ GENTYCZNA 
+-> typowy genom: ok. 4,5mln wariantów różniących go od sekwencji referencyjnej
+-> ok. 100 wariantów potencjalnie powodujących utratę funkcji (z tego ok. 20 homozygotycznych)
+Systematyczne sekwencjonowanie genomów zdrowych osób podważyło patogenność niektórych wariantów, które wcześniej poznano koncentrując się na osobach chorych.
+
+! Różnorodnośc genetyczna ludzi jest stosunkowo niewielka !
+
+Mendlowskie 
+Proste dziedziczenie allele pojedynczych genów, wysoka penetracja
+Mutacja powoduje chorobę 
+Badanie: analiza sprzężeń, sekwencjonowanie
+Rzadkie choroby 
+
+Wieloczynnikowe
+Złożone dziedziczenie: wiele czynników (genetycznych i środowiskowych), każdy z nich osobno ma niską penetrację
+Polimorfizmy genów wpływają na ryzyko (zwiększają albo zmniejszają)
+Badanie: metody statystyczne, głównie nieparametryczne
+Wiele częstych chorób i cech prawidłowych
+
+Francis Galton - pomiary cech człowieka - rozkład normalny
+
+FISHER I MODEL ADDYTYWNY
+-> o natężeniu danej cechy decyduje addytywne działanie dominujących alleli n genów
+-> rozkład cechy (równe częstości alleli) wraz ze wzrostem n będzie dążył do normalnego
+-> przy dużym n efekt taki, jak przy dziedziczeniu przez mieszanie cech rodzicielskich
+-> mendlowskie wyjaśnienie cech ilościowych
+
+CECHY WIELOCZYNNIKOWE - składowa genetyczna i środowiskowa
+1) składowa genetyczna - działają addytywnie, ale też interakcje funkcjonalne między genami
+Rozwój genomiki umożliwił wyjście poza badanie odziedziczalności
+-> Częste choroby, odziedziczalna część ryzyka:
+- nowotwory
+- choroby serca i układu naczyniowego
+- cukrzyca
+- choroby psychiczne
+Prawidłowa zmienność fenotypowa
+- cechy fizyczne i behawioralne
+
+Wzrost: 12 000 wariantów wyjaśniających w sumie 48% zmienności
+
+ODZIEDZICZALNOŚĆ
+Za każdy fenotyp odpowiada interakcja genotypu ze środowiskiem
+-> proporcja zmienności fenotypowej wyjaśnianej zmiennościa genetyczną w populacji
+-> odziedziczalność sensu stricto: rola addytywnych czynników gentycznych
+-> odziedziczalność GWAS: wyjaśniana przez polimorfizmy nukleotydowe w populacji
+
+NAJPROSTSZY MODEL
+Cecha ilościowa o rozkładzie opisywanym rozkładem normalnym (średnia, wariancja).
+Za zmienność fenotypu odpowiada zmienność środowiska i genotypu.
+
+! Odziedziczalność to miara udziału cech dziedzicznych w ZMIENNOŚCI fenotypu, kowariancja genotypu i fenotypu.
+Przykład: typowe choroby autosomalne recesywne: chore dzieci zdrowych rodziców, 100% odziedziczalności
+! Własność populacji !
+- zależy od struktury populacji, środowiska
+1. W populacji jednolitej genetycznie całość zmienności cechy jest spowodowana zmianami środowiska: 0% odziedziczalność
+2. Wzrost: odziedziczalność zależy od dobrobytu populacji (wysoka w populacjach dobrze odżywionych, niska w czasach głodu).
+
+Mutacje BRCA1 i BRCA2 odpowiadają za ok. 5% przypadków raka piersi
+=> odziedziczalność w populacji jest nieznaczna
+Osoby z mutacjami: istotny wzrost ryzyka zachorowania
+
+W przypadku raka piersi zazwyczaj jest to typowa cecha wieloczynnikowa, ale w rodzinach z patogennymi wariantami BRCA1 i BRCA2 o wysokiej penetracji to praktycznie cecha jednogenowa.
+
+CHOROBY PSYCHICZNE
+-> typowe cechy wieloczynnikowe
+-> rzadkie przypadki, kiedy sprawcza jest mutacja pojedynczego genu
+Przykład: mutacja GRIN2A w schizofrenii
+- koduje jedną z podjednostek receptora NMDAR
+- możliwości terapeutyczne
+
+Celowany lek (Modulator): Zamiast "wyciszać" dopaminę w całym mózgu, możemy podać lek, który działa jak wsparcie bezpośrednio dla osłabionego receptora NMDA. Są to tzw. pozytywne modulatory allosteryczne (PAM). Działają one jak "wzmacniacz sygnału" – pomagają wadliwemu receptorowi lepiej reagować na glutaminian.
+
+Medycyna personalizowana: Lekarz najpierw robi badanie genetyczne pacjenta. Jeśli widzi mutację GRIN2A, nie przepisuje leków "w ciemno", tylko dobiera substancję, która naprawia dokładnie ten zepsuty element układanki.
+
+------------------------------------------------- WYKŁAD 4 -----------------------------------------------------------
+ODZIEDZICZALNOŚĆ - OSZACOWANIE
+1) Badania bliźniąt
+- monozygotyczne (MZ), dizygotyczne (DZ)
+- na dużą odziedziczalność wskazuje silniejsza korelacja u MZ niż z DZ
+(podobnie silna korelacja u MZ i DZ - efekt wspólnego środowiska)
+
+Wysoka odziedziczalność: Jeśli bliźnięta jednojajowe (MZ) są znacznie bardziej do siebie podobne pod względem danej cechy niż bliźnięta dwujajowe (DZ), oznacza to, że główną rolę grają geny.
+Efekt wspólnego środowiska: Jeśli cecha występuje tak samo często (korelacja jest podobnie silna) u bliźniąt MZ i DZ, oznacza to, że geny mają mniejsze znaczenie, a kluczowe było wspólne wychowanie, dom czy szkoła (środowisko).
+
+2) Agregacja rodzinna
+- częstość objawów u krewnych I stopnia przewyższa obserwowaną u dalszych krewnych i osób niespokrewnionych
+Jeśli u krewnych I stopnia dane objawy występują wyraźnie częściej niż u dalszych krewnych, jest to mocny dowód na to, że podłoże cechy/choroby ma charakter genetyczny.
+
+3) Analizy genomowe - GWAS
+
+ASOCJACJA
+-> nieprzypadkowe współwystępowanie czynników (alleli i fenotypów) na poziomie populacji
+Zależności funkcjonalne
+- często z allelami MHC (HLA) - związane z ukł. odpornościowym
+- poszukiwanie asocjacji dla wariantów SNV/SNP w genomie człowieka
+- farmakogentyka i farmakogenomika - polimorfizmy a działanie leków
+(a) CRHR1 - skuteczność terapii kortykosteroidami w leczeniu astmy
+(b) HLA-B27 - nadwrażliwość na skutki uboczne Abcaviru
+(c) HTR2A (serotonina 2A) - reakcja na środki antydepresyjne
+
+GEN CYP1A2 - metabolizm kofeiny
+- szybki lub wolny metabolizm rozkładu kofeiny
+- spożycie kofeiny inaczej wpływa na ryzyko zawału serca i nadciśnienia u osób szybko i wolno metabilizujących
+
+BADANIA GWAS - asocjacje na skalę genomu
+- korelacja wariantów genetycznych z ryzykiem choroby/prawdopodobieństwem cechy
+- wiele korelacji, ale żadna nie może być czynnikiem decydującym
+- każda cecha ma wiele wariantów, z których pojedynczo ma niewielki efekts
+
+RODZAJE GWAS
+1) JAKOŚCIOWE
+- genotypy w grupie osób mających dany fenotyp i w grupie kontrolenej
+- które warianty korelują z fenotypem?
+2) ILOŚCIOWE
+- genotypy w grupie, gdzie każda osoba ma oznaczony fenotyp ilościowy (np. wzrost, poziom cholesterolu)
+- które warianty korelują z odchyleniem wartości fenotypu od średniej populacyjnej
+
+PROBLEM PORÓWNAŃ WIELOKROTNYCH
+Jeżeli p-value - 0,05 dla jednego wariantu, to dla 1000 wariantów oczekujemy 50 fałszywie poztywnych.
+Zwyczajowy próg: p < 5 * 10^(-8) (dla populacji europejskiej)
+Poprawki:
+- Bonferroniego (prosta, ale zbyt restrykcyjna)
+- Benjaminiego-Hochberga (FDR - False Discovery Ratio)
+
+Czy asocjacje o wysokiej istotności (małe p-value) mogą służyć do predykcji fenotypu?
+ODP: jeżeli jest wiarygodne powiązenie biologiczne
+Przykład: geny MHC i choroby autoimmunologiczne
+Korelacje badane od dawna - testy immunologiczne na obecność konkretnych wariantów nie wymagały analiz na poziomie DNA.
+
+CHOROBY ZAPALNE STAWÓW
+-> reumatoidalne zapalenie stawów
+-> zesztywniające zapalenie stawów
+-> choroby o podłożu autoimmunologicznym
+=> silne asocjacje z wariantami MHC
+
+!!! Asocjacja to nie jest "gen na" !!!
+Czynnik ryzyka nie ma zwykle znaczenia diagnostycznego; może być przydatny w diagnostyce różnicowej.
+Zawsze należy analizować asocjację na tle ogólnego ryzyka w populacji, jakie są wartości bezwzględne.
+Asocjacje zwykle mają niewielką przydatność dla przewidywania fenotypu pojedynczych osób - to nie diagnostyka.
+
+PROBLEM INTERPRETACJI GWAS
+Obserwowana w dużych kohortach asocjacja jest efektem nałożenia kliku czynników.
+1) efekty bezpośrednie: wpływ wariantów danej osoby na fenotyp
+2) efekty pośrednie: wpływ pochodzenia (dalszego i rodzinnego)
+
+ARTEFAKTY ASOCJACJI ALLELI
+Struktura populacji (ukryta zmienna)
+PARADOKS SIMPSONA
+Jeżeli zmieszamy 2 populacje, w których nie występuje asocjacja markera i choroby, ale są różne częstości występowania choroby (oraz markera), w zmieszanej populacji pojawi się asocjacja markera z chorobą (problem ukrytej zmiennej).
+
+Przykład liczbowy: Dwie populacje i ukryta zmienna
+Wyobraźmy sobie dwie niezależne grupy ludzi: Populację A i Populację B.
+Badamy w nich:
+    Częstość występowania pewnej choroby.
+    Częstość posiadania konkretnego markera genetycznego (wariantu DNA).
+
+Krok 1: Analiza osobnych populacji (Brak asocjacji)
+    Populacja A (np. wysoka zachorowalność):
+        Choroba występuje aż u 80% osób.
+        Marker genetyczny jest bardzo powszechny i ma go 80% osób.
+        Ważne: Wewnątrz tej populacji posiadanie markera nie zmienia szansy na chorobę (chorują tak samo często osoby z markerem, jak i bez niego). Asocjacji brak.
+    Populacja B (np. niska zachorowalność):
+        Choroba występuje rzadko – tylko u 20% osób.
+        Marker również jest rzadki – ma go tylko 20% osób.
+        Ważne: Wewnątrz tej populacji również nie ma asocjacji – marker nie wpływa na chorobę.
+
+Krok 2: Mieszamy populacje (Pojawia się "magiczna" asocjacja)
+Teraz łączymy obie grupy w jedną dużą kohortę badawczą (np. 100 osób z Populacji A i 100 osób z Populacji B) i wrzucamy dane do algorytmu GWAS. Co zobaczy komputer, który nie wie o istnieniu Populacji A i B?
+
+Zróbmy proste zestawienie tabelaryczne dla połączonej grupy:
+	Osoby z markerem	Osoby BEZ markera	Razem
+Populacja A (100 osób)	80 osób (w tym 64 chore)	20 osób (w tym 16 chorych)	80 chorych / 20 zdrowych
+Populacja B (100 osób)	20 osób (w tym 4 chore)	80 osób (w tym 16 chorych)	20 chorych / 80 zdrowych
+ZMIĘSZANA POPULACJA	100 osób (w tym 68 chorych)	100 osób (w tym 32 chore)	100 chorych / 100 zdrowych
+
+Krok 3: Wniosek komputera (Błędny!)
+Gdy komputer patrzy na sam dół tabeli zbiorczej (zmieszanej populacji), widzi następujący obraz:
+    Masz marker? Szansa na chorobę wynosi 68% (68 na 100 osób).
+    Nie masz markera? Szansa na chorobę wynosi tylko 32% (32 na 100 osób).
+Algorytm GWAS krzyczy: „Mamy to! Marker silnie asocjuje z chorobą! Osoby z markerem chorują ponad dwukrotnie częściej!”
+
+Co to oznacza w kontekście biologii i GWAS?
+W rzeczywistości ten marker genetyczny ma zerowy wpływ na biologię choroby.
+Powodem, dla którego w zmieszanej populacji pojawiło się powiązanie, jest to, że:
+    Populacja A ma z jakichś powodów (np. dieta, styl życia, klimat) znacznie wyższy bazowy poziom zachorowalności.
+    Ta sama Populacja A, czysto historycznie/demograficznie, ma po prostu częściej występujący ten konkretny marker w swoim puli genowej.
+Ukryta zmienna (pochodzenie z Populacji A lub B) spowodowała, że cecha demograficzna (częstość markera) "skleiła się" w analizie statystycznej z cechą fenotypową (częstość choroby).
+
+EFEKTY POŚREDNIE
+1) Pochodzenie
+Przykład 1: w Kalifornii zidentyfikowano warianty skorelowane z biegłym posługiwaniem się pałeczkami przy jedzeniu
+(oczywista korelacja z pochodzeniem)
+Przykłąd 2: korelacje  z prognozami przy raku prostaty w USA - z wariantami częstszymi w populacjach afrykańskich
+
+2) Rodzinne - kowariancja genotyp-środowisko
+Przykład: osiągnięcia edukacyjne i status ekonomiczny korelują u dzieci i rodziców, wspólne w danej rodzienie warianty genomowe dadzą korelację
+Rozwiązanie: badanie asocjacji w obrębie rodzin (środowisko rodzinne zostaje zamrożone), z uwzględnieniem pokrewieństwa
+! problem z dostępnością danych
+
+LUKA ODZIEDZICZALNOŚCI GWAS
+
