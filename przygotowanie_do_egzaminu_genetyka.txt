@@ -361,4 +361,360 @@ Rozwiązanie: badanie asocjacji w obrębie rodzin (środowisko rodzinne zostaje 
 ! problem z dostępnością danych
 
 LUKA ODZIEDZICZALNOŚCI GWAS
+Nawet badania na bardzo dużych kohortach nie wyjaśniają całości zmienności
+-> Zmienność GWAS z kohoty >5mln osób to tylko 48% zmienności wzrostu
+-> Efekty wariantów rzadkich (badania na dużych kohortach testują tylko warianty częste)
+- dla wzrostu zwiększa wyjaśnioną zmienność do 68%
+1) efekty interakcji funkcjonalnych między genami
+2) efekty środowiskowe
+3) efekty epigenetyczne (ekspresja genów)
+
+Rozbicie punktów ze slajdu:
+
+    Wielkość próby badawczej (kohorty):
+    Slajd mówi: "Nawet badania na bardzo dużych kohortach nie wyjaśniają całości zmienności". Kiedyś myślano, że luka wynika ze zbyt małej liczby przebadanych osób. Jednak, jak podano na przykładzie, nawet przebadanie ponad 5 milionów osób pozwoliło wyjaśnić tylko 48% zmienności wzrostu. Mimo potężnej ilości danych, wciąż brakuje nam informacji o pozostałych kilkudziesięciu procentach.
+
+    Efekty wariantów rzadkich:
+    Standardowe testy GWAS są projektowane tak, aby wyłapywać mutacje częste w populacji (występujące np. u więcej niż 1-5% ludzi). Tymczasem wiele cech jest kształtowanych przez mutacje niezwykle rzadkie, ale za to mające bardzo silny efekt. Kiedy badacze użyli dokładniejszych metod, by uwzględnić te rzadkie warianty, odsetek wyjaśnionej zmienności dla wzrostu skoczył z 48% do ok. 68%. To krok w dobrą stronę, ale wciąż nie 100%.
+
+    Efekty interakcji funkcjonalnych pomiędzy genami (Epistaza):
+    Klasyczny GWAS zakłada, że działanie genów po prostu się sumuje (Gen A daje +1 cm wzrostu, Gen B daje +2 cm, więc razem dają +3 cm). W rzeczywistości geny często ze sobą współpracują lub blokują się nawzajem. Gen A może w ogóle nie działać, jeśli nie masz odpowiedniej wersji Genu B. Tego typu skomplikowane interakcje są bardzo trudne do wyłapania w standardowych modelach statystycznych.
+
+    Efekty środowiskowe:
+    Geny to nie wszystko. Na nasz ostateczny "fenotyp" (np. to, jak wysocy rośniemy) ogromny wpływ ma środowisko – dieta w dzieciństwie, przebyte choroby, czy warunki klimatyczne. Jeśli modele genetyczne nie uwzględnią odpowiednio tych czynników środowiskowych, ich wyliczenia będą niepełne.
+
+    Efekty epigenetyczne:
+    Nawet jeśli masz dany gen w swoim DNA, nie oznacza to, że będzie on działał na 100%. Epigenetyka to mechanizmy (np. metylacja DNA), które "włączają" lub "wyłączają" geny bez zmieniania samego kodu DNA (sekwencji liter). Te modyfikacje mogą powstawać pod wpływem stresu czy diety i mogą być dziedziczone, co bardzo komplikuje klasyczne poszukiwania genów w badaniach GWAS.
+
+
+! Żaden pojedynczy wariant genomowy nie wystarczy do predykcji fenotypu !
+UWAGA NA TESTY
+-> Istotność statystyczna nie jest tożsama z wielkością efektu
+-> Korelacja nie oznacza możliwości przewidzenia fenotypu
+-> Testy mają sens dla rzadkich genetycznych predyspozycji
+
+Warianty wysokiego ryzyka zachorowania na rak piersi:
+BRCA1/BRCA2 i MLH1, MSH2, MSH6
+Ale większość przypadków jest u osób bez tych wariantów (tylko 5-10% przypadków z mutacjami genów).
+!Brak wariantu ryzyka nie oznacza mniejszego ryzyka zachorowania!
+
+WIELOGENOWE CZYNNIKI RYZYKA
+PRS - Polygenic Risk Scores
+PGS - Polygenic Scores
+-> Łączy pojedyncze asocjacje, z których każda ma nieznaczny wpływ na fenotyp.
+-> uwzględnia wszytskie znane SNV
+-> wpływ wszystkich wariantów sumowany z wagą zależną od siły asocjacji
+PRZEDSTAWIENIE WYNIKÓW
+- iloraz szans - dla cech dyskretnych (chory/zdrowy)
+- współczynnik beta (regresja) - dla cech ilościowych
+Kluczowy jest percentyl!
+
+Rozkłady PRS się nakładają.
+Mimo istotności statystycznej, większość wartości PRS nie pozwala na predykcję.
+Znacząca predykcja tylko dla skrajnych wartości, które są rzadkie
+
+CHOROBA WIEŃCOWA - CAD
+- 6 630 150 SNP
+- bardzo znaczny wzrost ryzyka u osób stosunkowo nielicznej grupy o wysokim GPS/PRS
+
+Rozkład normalny - większość osób będzie miało ryzyko bliskie średniej populacyjnej
+Dla 4 innych badanych chorób podobny przebieg krzywej 
+(migotanie przedsionków, cukrzyca, nieswoiste zapalenie jelit, rak piersi) (slajd 38)
+Dla diagnostyki i profilaktyki istotne osoby z górnych percentyli rozkładu GPS/PRS.
+
+współczynnik korelacji: R^2
+
+INTERAKCJE GENOTYP-ŚRODOWISKO - PRZYKŁADY CHORÓB PSYCHICZNYCH
+- tradycyjny model: czynniki zewnętrzne (np. traumy) i endogenne (w tym gentyczne)
+- nie są niezależne - osoby z wyższą wartością PRS częściej zgłaszają trudne (stresowe) doświadczenia
+- czynniki genetyczne zwiększają ryzyko znalezienia się w trudnej sytuacji środowiskowej
+
+ARCHITEKTURA GENETYCZNA (...cechy)
+- lista wariantów powiązanych z daną cechą
+- identyfikacja kluczowych genów
+- identyfikacja silnych sygnałów
+- nadal brak modelu relacji genotyp-fenotyp
+Przykład: twarz, 203 SNP, wiele w enhancerach aktywnych w trakcie rozwoju neuroektodermy
+Asocjacje między wariantami genomowymi a odległościami między wyznaczonymi punktami twarzy
+
+UCZENIE MASZYNOWE
+-> próby dla fenotypów dziedziczonych wielogenowo (pigmentacja) i wieloczynnikowo (schizofrenia)
+-> wyniki porównywalne z zastosowaniem wielogenowych czynników ryzyka
+
+GENETYKA CZĘSTYCH CHORÓB
+-> głównie warianty MAF>0,5%, ale efekty każdego z nich pojedynczo są niewielkie
+-> rzadkie (MAF<0,5%) allele o większym ryzyku
+= odpowiadają za 1-10% przypadków (zależnie od choroby) i mogą dawać przypadki rodzinne
+Przykład: hipercholesterolemia
+
+Częste cechy są silnie wielogenowe (duże kohorty GWAS)
+- dla cech behawioralnych i antropometrycznych (zmienność prawidłowa): nawet > 10 000 wariantów
+
+DZIEDZICZENIE OMNIGENOWE
+Wszystkie geny mają wpływ na zmienność częstych cech
+
+Warianty wykrywane w GWAS istotnie częściej znajdują się w genach i obszarach regulatorowych aktywnych w wielu różnych tkankach niż w tkankowo-specyficznych
+
+Częste warianty - niewielki efekt
+Rzadkie warianty - duży efekt
+
+PODSUMOWANIE
+• Większość cech zmienności prawidłowej i częstych chorób człowieka to cechy wieloczynnikowe
+• Badanie pojedynczych genów nie pozwala na przewidywanie fenotypu takich cech
+• Genetyka dobrze opisuje i przewiduje dziedziczenie cech jednogenowych
+• Nie ma dobrego opisu teoretycznego pozwalającego na przewidywanie dla cech wieloczynnikowych - wyzwanie na kolejne dekady
+
+
+
+----------------------------------- WYKŁAD 5 ------------------------------------------
+2 GRUPY KOMÓREK
+1) SOMATYCZNE - budują organizm, ale nie są przekazywane potomstwu
+2) LINII PŁCIOWEJ - tworzą gamety, ich genom przekazywany jest potomstwu, powstają z komórek macierzystych
+
+KOMÓRKI SOMATYCZNE
+-> ograniczona liczba podziałów
+- granica Hayflicka, skracanie się telomerów
+- WYJĄTEK: komórki macierzyste (granica zniesiona/odsunięta) i komórki nowotworowe
+
+KOMÓRKI SOMATYCZNE U PRZECIĘTNEGO MĘŻCZYZNY
+-> 2,9*10^13 komórek w sumie, z czego 7*10^12 komórek z jądrami
+(większość to erytrocyty i płytki krwi, linia płciowa 1*10^10)
+-> 3,8*10^13 komórek bakterii
+-> tempo mutacji: 2,8*10^(-7)/bp; w linii płciowej 10x mniej
+
+MUTACJE SOMATYCZNE
+-> gromadzą się w tkankach z wiekiem
+-> zależnie od tkanki: 30-60 mutacji/rok w próbce tkanki
+-> uszkodzenia przez reaktywne formy tlenu jako jeden z głównych mechanizmów
+
+IDENTYFIKACJA MUTACJI W LINII PŁCIOWEJ - PROSTA
+- osoba jest homozygotą lub heterozygotą
+IDENTYFIKACJA MUTACJI SOMATYCZNYCH
+- próbka (np. z nowotworu) może być heterogenna
+Kwestia rozróżnienia wariantów somatycznych i linii płciowej (odziedziczonych) u jednej osoby (zwłaszcza gdy brak kontroli, np. guz i krew od tej samej osoby)
+NAJCZĘŚCIEJ STOSOWANY POTOK: GATK
+
+ZJAWISKA ZWIĄZANE ZE ZMIANAMI W GENOMIE KOMÓREK SOMATYCZNYCH
+1) STARZENIE SIĘ
+- utrata funkcji komórek somatycznych przy ograniczonych możliwościach ich odtwarzania
+- odwrotna korelacja między długością życia a tempem mutacji somatycznych
+2) NOWOTWORY
+- niekontrolowane podziały komórek somatycznych
+
+DOBÓR KREWNIACZY
+dobór może faworyzować nie tylko sukces reprodukcyjny danego organizmu, ale też i organizmów spokrewnionych
+Przykład (skrajny): komórki organizmu wielokomórkowego mają ten sam genotyp
+-> wszystkie działają na sukces reprodukcyjny linii płciowej, ale każdy system jest zagrożony przejęciem przez elementy "samolubne"
+
+CHOROBA NOWOTWOROWA (slajd 10)
+-> niekontrolowana proliferacja komórek somatycznych
+-> niestabilność genomu
+-> przerzuty (bez przerzutów: nowotwór łagodny)
+
+KOMÓRKI NOWOTWOROWE
+-> aktywne sygnały podziałowe, nieaktywne sygnały hamujące podziały
+-> oporność na apoptozę
+-> unikanie odpowiedzi immunologicznej
+-> niestabilność genomu
+-> zniesienie granicy Hayflicka
+-> zmiana profilu metabolicznego (efekt Warburga, zaburzenia mitochondrialne)
+
+- aktywacja angiogenezy ()
+- fenotyp przerzutów
+- plastyczność fenotypowa
+- zmiany regulacji epigenetycznej
+
+EFEKT WARBURGA
+
+RAK - nowotwór złośliwy tkanki nabłonkowej
+MIĘSAK - nowotwór złośliwy tkanki nienabłonkowej
+CHŁONIAK - nowotwór złośliwy układu chłonnego (np. białaczka z zajęciem szpiku)
+GLEJAK - nowotwór złośliwy komórek glejowych
+POTWORNIAK - nowotwór złośliwy komórek zarodkowych
+U Człowieka do przemiany komórki w nowotworową wymagane jest typowo 5 kolejnych mutacji
+
+ETAPY ROZWOJU NOWOTWORU
+1. INICJACJA - aktywacje onkogenów, zmiany ekspresji
+2. PROMOCJA - utrwalenie zmian genetycznych, destabilizacja genomu
+3. PROGRESJA - namnażanie in situ
+4. INWAZJA - angiogeneza, przełamanie błony podstawnej, infiltracja, wejście do krwiobiegu
+5. PRZERZUTY - wtórne ogniska
+Nowotwór jest procesem mikroewolucyjnym - komórki konkurują o zasoby organizmu
+
+KANCEROGENEZA (slajd 16)
+! Konkretna kolejność zdarzeń różna w różnych nowotworach !
+
+NIESTABILNOŚĆ GENOMU
+-> DODATNIE SPRZĘŻENIE ZWROTNE - mutacje zaburzające kontrolę cyklu mogą destabilizować genom, zwiększając prawdopodobieństwo kolejnych zaburzeń
+-> niestabilność genomu - typowe u nowotworów
+1) rearanżacje chromosomów
+2) zaburzenia rekombinacji
+3) mobilizacja ruchomyc elementów genetycznych
+4) osłabienie mechanizmów wykrywania uszkodzeń DNA
+5) utrata mechanizmów zatrzymujących cykl komórkowy przy uszkodzeniach genomu!
+
+STANY PRZEDNOWOTWOROWE I NOWOTWOROWE
+- mutacja
+- HIPERPLAZJA - zwiększenie liczby komórek
+- DYSPLAZJA - zmiany cytologiczne oraz zaburzenia w architekturze tkanki
+- RAK IN SITU (guz)
+- rak przerzutowy (złośliwy)
+
+ROZWÓJ NOWOTWORU
+Jedna komórka zaczyna. Milion komórek rozwija (guz 1mm). Miliard komórek wykrywa (guz 1cm). Bilion komórek zabija (guz 1kg).
+
+NOWOTWORY - GENETYKA I PRZYCZYNY
+1) Mutacje somatyczne - zaburzenia genetyczne, ale nie dziedziczne
+-> KARCYNOGENY - przeważnie zwiększają częstość mutacji
+2) Genetyczne czynniki ryzyka
+-> Genotyp wpływa ma ryzyko zachorowania, ale na zasadzie sprawczości
+-> Dziedziczenie wieloczynnikowe z istotną rolą czynników środowiskowych i losowych
+3) DZIEDZICZONE ZESPOŁY PODATNOŚCI NA OKREŚLONE NOWOTWORY - RZADKIE
+-> Dziedziczne mutacje o wysokiej penetracji (sprawcze)
+4) ONKOGENNE WIRUSY I BAKTERIE
+-> różne mechanizmy molekularne
+5) PROCESY FIZJOLOGICZNE
+-> np. przewlekły stan zapalny
+
+
+Duży udział czynników środowiskowych
+- czerniak (UV)
+- rak płuca (zanieczyszczenia powietrza, palenie)
+- rak żołądka
+- rak szyjki macicy (HPV)
+Duży udział czynników genetycznych
+- rak sutka
+- rak okrężnicy
+
+ZABURZENIA KONTROLI CYKLU KOMÓRKOWEGO
+Komórki spoczynkowe - faza G0
+Komórki dzielące się - cykl z 3 punktami kontrolnymi
+Większość odróżnicowanych komórek wchodzi w G0
+
+Komórki nowotworowe nie wchodzą w G0!!!
+Przyczyną jest często zaburzenie kaskady sygnału wzrostu
+
+MECHANIZMY KOMÓRKOWE
+Czynniki kontroli podziałów
+(a) pozytywnej - protoonkogeny/onkogeny
+(b) negatywnej - supresory nowotworów (antyonkogeny)
+
+ZARYS GENETYKI NOWOTWORÓW
+1) Genetyczna kontrola podziałów komórki
++ PROTOONKOGENY
+-> nowotworom sprzyjają mutacje neomorficzne i hipermorficzne - zmutowane allele to onkogeny
+- ANTYONKOGENY (SUPRESORY NOWOTWORÓW)
+-> nowotworom sprzyjają mutacje nullomorficzne i hipomorficzne
+2) Zapewnienie stabilnoścni genomu
+-> naprawda DNA, kontrola rekombinacji
+-> nowotworom sprzyjają mutacje nullomorficzne i hipomorficzne
+
+ONKOGENY
+-> geny, których produkty stymulują patologiczne podziały komórek
+-> zmutowane allele protoonkogenów - genów z genomu komórki
+-> geny niesione przez patogeny (wirusy, bakterie)
+- zmutowane allele protoonkogenów
+- onkogeny specyficzne dla patogenów
+
+(slajd 31)
+Wirusy onkogenne - niosą onkogeny w genomie
+Czynniki mutagenne zwykle są karcynogenami
+
+WIRUSY ONKOGENNE
+-> retrowirusy (RNA) niosące zmutowawny onkogen pochodzenia genomowego - efekt ten sam, jak przy mutacji protoonkogenu
+-> inne wirusy RNA i DNA - kodują własne białka interferujące z kontrolą podziałów
+- aktywują kaskady sygnalizacyjne
+- inaktywują antyonkogeny
+- oddziałują z elementami regulacji podziałów
+
+RETROWIRUSY I NOWOTWORY
+Retrowirusy nie są istotnym czynnikiem.
+Wyjątek: HTLV-1 i 2 - rzadkie formy białaczek, bardzo długi czas od infekcji do rozwoju choroby
+Zwierzęce retrowirusy onkogenne odegrały istotną rolę w odkryciu mechanizmów nowotworzenia
+
+INNE WIRUSY ONKOGENNE
+HPV - rak szyjki macicy, raki głowy i szyi, raki prącia
+HBV, HCV - rak wątroby
+Wirus Epsteina-Barr - chłoniaki
+Ich onkogeny nie są zmienionymi protoonkogenami z genomu
+
+HPV I NOWOTWORY
+-> przenoszone drogą płciową (ponad 50% dorosłych)
+-> HPV typu 16 i 18 są istotnym czynnkiem ryzyka nowotworów
+(70% wszystkich przypadków raka szyjki macicy, 85% raka odbytu, raka jamy ustnej
+
+PROTOONKOGENY I ONKOGENY
+!!! ONKOGEN - allel zmutowany; PROTOONKOGEN - prawidłowy
+-> sprzyjają mutacje neomorficzne i hipermorficzne powodujące aktywację
+-> zwykle mutacje dominujące
+-> mutacje somatyczne, sporadycznie dziedziczone
+Kodują przykładowo:
+- czynniki wzrostu i ich receptory
+- elementy szlaków przekazywania sygnałów
+- czynniki transkrypcyjne
+- negatywne regulatory apoptozy
+
+ANTYONKOGENY (SUPRESORY NOWOTWORÓW)
+-> sprzyjają mutacje nullomorficzne i hipomorficzne inaktywujące
+- np. p53, pRB
+- mutacje somatyczne i niekiedy odziedziczone
+
+600 protoonkogenów ludzkich, 700-800 supresorów nowotworów (w tym 80 miRNA)
+
+p53
+- gen TP53 zmutowany w większości nowotworów
+- działa jako tetramer: uszkodzenie jednego allelu częściowo osłabia funkcje i destabilizuje genom
+- "strażnik genomu"
+1) aktywacja naprawy DNA
+2) zatrzymanie cyklu (G1/S) przy uszkodzonym DNA
+3) inicjacja apoptozy
+
+PRZYKŁADY ZABURZEŃ W NOWOTWORACH
+- aktywacja onkogenów
+- inaktywacja supresorów nowotworów
+- zaburzenia naprawy DNA/stabilności genomu
+- aktywacja telomerazy
+- konkretne geny i kolejność różne w różnych nowotworach
+
+MUTACJE SOMATYCZNE W NOWOTWORACH
+-> kierujące, napędzające - fenotyp mutacji przyczynia się do zmian komórki
+-> towarzyszące - powstają w wyniku niestabilności genomu i szybkich podziałów, ale nie mają wpływu na rozwój nowotowru
+Rozróżnienie nie zawsze ewidentne
+
+MUTACJE mtDNA W NOWOTWORACH
+- komórki nowotworowe charakteryzują się przejściem metabolizmu tlenowego na beztlenowy
+- często obserwowane są mitochondrialne mutacje somatyczne nie występujące w prawidłowej tkance tego samego pacjenta
+(polimorfizmy, mutacje upośledzające działanie mitochondriów)
+
+DZIEDZICZNE ZESPOŁY PODATNOŚCI NA OKREŚLONE NOWOTWORY
+Dziedziczne mutacje antyonkogenów
+- p53 - zespół Li-Fraumeni
+- Rb - retinoblastoma
+Mutacje genów z naprawą DNA i rekombinacją
+- BRCA1, BRCA2 w raku sutka
+- HNPCC (rak jelita grubego)
+Mutacje zmieniające profil metaboliczny
+- np. SDH (dehydrogenaza bursztynaniowa)
+
+HNPCC
+- dziedziczny rak jelita grubego niezwiązany z polipowatością, zespół Lyncha
+- mutacje utraty funkcji różnych genów związanych z naprawą DNA, najczęściej systemem MMR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
